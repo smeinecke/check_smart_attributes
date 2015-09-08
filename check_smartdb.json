@@ -223,8 +223,8 @@
 			},
 			"Perfs" : ["190","177","180","241"]
 		},
-		"Crucial MX200" : {
-			"Device" : ["Crucial_CT1024MX200SSD1"],
+		"Crucial MX" : {
+			"Device" : ["Crucial_CT1024MX200SSD1", "Crucial_CT256MX100SSD1"],
 			"ID#" : {
 				"1" : "RAW_VALUE", # Raw Read Error Rate
 				"5" : "RAW_VALUE", # Reallocated NAND Block Count
@@ -247,6 +247,8 @@
 				"206" : "RAW_VALUE", # Write Error Rate
 				"210" : "RAW_VALUE", # Successful RAIN Recovery Count
 				"246" : "RAW_VALUE", # Total Host Sector Writes
+                "247" : "RAW_VALUE", # Host_Program_Page_Count
+                "248" : "RAW_VALUE", # Background_Prog_Page_Ct
 				"1024" : "VALUE" # ATA error count (custom)
 			},
 			"Threshs" : {
