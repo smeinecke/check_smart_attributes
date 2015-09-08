@@ -9,5 +9,4 @@ Homepage: https://www.thomas-krenn.com/de/wiki/SMART_Attributes_Monitoring_Plugi
 Package: nagios-plugins-check-smart-attributes
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, libconfig-json-perl, smartmontools, perl
-Recommends: nagios3 | icinga
 Description: Nagios/Icinga plugin to check smart attributes with smartctl.
