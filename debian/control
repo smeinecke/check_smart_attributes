@@ -1,0 +1,13 @@
+Source: nagios-plugins-check-smart-attributes
+Section: net
+Priority: extra
+Maintainer: Georg Schönberger <gschoeneberger@thomas-krenn.com>
+Build-Depends: debhelper (>= 7.0.50~), autotools-dev
+Standards-Version: 3.8.4
+Homepage: https://www.thomas-krenn.com/de/wiki/SMART_Attributes_Monitoring_Plugin
+
+Package: nagios-plugins-check-smart-attributes
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, libconfig-json-perl, smartmontools
+Recommends: nagios3 | icinga
+Description: Nagios/Icinga plugin to check smart attributes with smartctl.
