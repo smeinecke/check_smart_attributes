@@ -1,0 +1,2 @@
+check_smart_attributes /usr/lib/nagios/plugins/
+check_smartdb.json /etc/nagios-plugins/config/
